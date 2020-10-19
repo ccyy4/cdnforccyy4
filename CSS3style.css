@@ -1,0 +1,81 @@
+/*彩色线条*/
+.navigation_top {
+    left: 0;
+    width: 100%;
+    height: 3px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    text-align: center;
+    z-index: 109;
+    background-color: #0FA6EA;
+    background: -webkit-linear-gradient(left,rgba(15, 166, 234, 1) 0,rgba(246,107,18,1) 20%,rgba(15, 166, 234, 1) 60%,rgba(89, 204, 24, 1) 100%);
+    background: -moz-linear-gradient(left,rgba(15, 166, 234, 1) 0,rgba(246,107,18,1) 20%,rgba(15, 166, 234, 1) 60%,rgba(89, 204, 24, 1) 100%);
+    background: -ms-linear-gradient(left,rgba(15, 166, 234, 1) 0,rgba(246,107,18,1) 20%,rgba(15, 166, 234, 1) 60%,rgba(89, 204, 24, 1) 100%);
+    background: linear-gradient(left,rgba(15, 166, 234, 1) 0,rgba(246,107,18,1) 20%,rgba(15, 166, 234, 1) 60%,rgba(89, 204, 24, 1) 100%);
+}
+/*幻灯毛玻璃*/
+.blurr{left: 0px; height: 400px; overflow: hidden; position: relative; width: 100%; background: rgb(0, 0, 0);}
+.blurr-bg{left: 0px; right: 0px; top: -50px; bottom: -50px; width: 100%; -webkit-filter: contrast(110%) brightness(74%) blur(30px); z-index: 50; position: absolute; }
+.blurrdiv{width:1300px;margin: 0 auto; float:none;}
+.blurrul{width:1300px;margin: 0 auto; position: relative;}
+
+/*3D翻转特效*/
+.qcontainer1:hover .film1 .face1 li a d{ display:none;}
+.qcontainer:hover .film .face li a d{ display:none;}
+.mpvideo-bg{ display:none;}
+.mplzbz{display:none;}
+.contentbox{width:1000px;margin:auto;margin-top:2em;clear:left;}
+.qcontainer{-webkit-perspective:400;-moz-perspective:400;float:left;width:180px;margin-right:20px;}
+.film{width:100%;height:250px;-webkit-transform-style:preserve-3d;-webkit-transition:1.5s;-moz-transform-style:preserve-3d;-moz-transition:1.5s;}
+.qcontainer:hover .film{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);}
+.face{position:absolute;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;}
+.face h3{color:white;text-align:center;}
+.back{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);background:-webkit-gradient(linear,left top,left bottom,from(#fdbb5a),to(#db5726));background:-moz-linear-gradient(top,#fdbb5a,#db5726);width:180px;height:230px;-webkit-border-radius:10px;}
+/*响应式*/
+@media (max-width:767px) {
+.face1 li a d{ display:none;}
+.face li a d{ display:none;}
+.mpvideo-bg{display:block}
+.mplzbz{display:block}
+.MPli{width: 100%;}
+.MPli img  {width: 100%; height: 160px;}
+.MPli2{width: 100%;}
+.MPli2 img  {width: 100%; height: 160px;}
+.qcontainer{-webkit-perspective:400;-moz-perspective:400;float:left;width:30%;margin-right:10px;}
+.film{width:100%;height:180px;-webkit-transform-style:preserve-3d;-webkit-transition:1.5s;-moz-transform-style:preserve-3d;-moz-transition:1.5s;}
+.qcontainer:hover .film{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);}
+.face{    position: relative;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;}
+.face h3{color:white;text-align:center;}
+.back{ display:none;}
+	}
+	
+/*3D翻转特效*/
+.mpvideo-bg1{ display:none;}
+.mplzbz1{display:none;}
+.contentbox1{width:1000px;margin:auto;margin-top:2em;clear:left;}
+.qcontainer1{-webkit-perspective:400;-moz-perspective:400;float:left;width:140px;margin-right:16px;}
+.film1{width:100%;height:215px;-webkit-transform-style:preserve-3d;-webkit-transition:1.5s;-moz-transform-style:preserve-3d;-moz-transition:1.5s;}
+.qcontainer1:hover .film1{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);}
+.face1{position:absolute;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;}
+.face1 h3{color:white;text-align:center;}
+.back1{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);background:-webkit-gradient(linear,left top,left bottom,from(#fdbb5a),to(#db5726));background:-moz-linear-gradient(top,#fdbb5a,#db5726);width:140px;height:200px;-webkit-border-radius:10px;}
+/*响应式*/
+@media (max-width:767px) {
+.mpvideo-bg1{display:block}
+.mplzbz1{display:block}
+.MPli1{width: 100%;}
+.MPli1 img  {width: 100%; height: 160px;}
+.qcontainer1{-webkit-perspective:400;-moz-perspective:400;float:left;width:30%;margin-right:10px;}
+.film1{width:100%;height:180px;-webkit-transform-style:preserve-3d;-webkit-transition:1.5s;-moz-transform-style:preserve-3d;-moz-transition:1.5s;}
+.qcontainer1:hover .film1{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);}
+.face1{    position: relative;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;}
+.face1 h3{color:white;text-align:center;}
+.back1{ display:none;}
+	}
+	
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */@font-face{font-family:'FontAwesome';src:url('./fonts/fontawesome-webfont.eot?v=4.7.0');src:url('./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('./fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('./fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('./fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('./fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-fw{width:1.28571429em;text-align:center}.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.fa-ul>li{position:relative}.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.fa-li.fa-lg{left:-1.85714286em}.fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left{margin-right:.3em}.fa.fa-pull-right{margin-left:.3em}.pull-right{float:right}.pull-left{float:left}.fa.pull-left{margin-right:.3em}.fa.pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1)}.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1)}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical{filter:none}.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}.fa-stack-1x{line-height:inherit}.fa-stack-2x{font-size:2em}.fa-inverse{color:#fff}.fa-glass:before{content:"\f000"}.fa-search:before{content:"\f002"}.fa-eye:before{content:"\f06e"}.fa-angle-left:before{content:"\f104"}.fa-angle-right:before{content:"\f105"}.fa-angle-down:before{content:"\f107"}.fa-android:before{content:"\f17b"}.fa-history:before{content:"\f1da"}.fa-times:before{content:"\f00d"}.fa-mobile:before{content:"\f10b"}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
+	
